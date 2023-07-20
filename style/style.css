@@ -10,6 +10,7 @@
 /* Nav parts style */
 .nav-parts {
     display: flex;
+    gap: 1rem;
     align-items: center;
     padding-right: 50px;
     padding-left: 50px;
@@ -27,7 +28,7 @@
 
 .nav-parts-2 .common-text-gray {
     display: flex;
-    gap: 20px;
+    gap: 1rem;
     align-items: center;
 }
 
@@ -42,7 +43,7 @@
 }
 
 .nav-title {
-    font-size: 45px;
+    font-size: 2.7rem;
     font-weight: 700;
     text-align: center;
     padding-left: 20px;
@@ -52,7 +53,7 @@
     color: #FF42A5;
 }
 
-.common-text-gray {
+.common-text-gray, .common-text-gray a {
     color: #3C354F;
     font-weight: 500;
     font-size: 15px;
@@ -91,12 +92,7 @@
     padding-left: 50px;
 }
 
-/* .banner-background{
-    background-image: url(../images/Group\ 14.png);
-    background-repeat: no-repeat;
 
-
-} */
 .banner-part-1 {
     padding-top: 200px;
     align-items: center;
@@ -316,6 +312,7 @@ p {
     margin-top: 60px;
 }
 
+
 .img-1 img {
     height: 80%;
     width: 80%;
@@ -448,7 +445,7 @@ footer {
     opacity: .8;
     color: #FF42A5;
     width: 100%;
-    height: 86%;
+    height: 83%;
     border: 2px solid red;
     border-radius: 16px;
     display: flex;
@@ -497,8 +494,7 @@ footer {
 
     .part-2,
     .part-2 p,
-    .middle-part-1,
-    .middle-part-2 {
+    .middle-part-1{
         padding: 0;
         text-align: center;
         max-width: 300px;
@@ -506,14 +502,16 @@ footer {
 
 
     .img-2 img {
-        display: none;
+        border: 0;
+        padding-top: 170px;
+        
 
 
     }
 
     .img-1 img {
-        margin: 0;
-        padding: 0;
+        margin-left: 50px;
+        padding-right: 0;
     }
 
     .box-1 {
@@ -547,6 +545,9 @@ footer {
     footer p {
         max-width: 270px;
         text-align: center;
+    }
+    .container-2{
+        display: none;
     }
 
 
@@ -586,8 +587,7 @@ footer {
 
     .part-2,
     .part-2 p,
-    .middle-part-1,
-    .middle-part-2 {
+    .middle-part-1{
         padding: 0;
         text-align: center;
 
@@ -601,7 +601,7 @@ footer {
         align-items: center;
     }
 
-    .img-2 img,
+
     .icon-9 {
         display: none;
     }
@@ -619,11 +619,21 @@ footer {
         padding: 10px;
         gap: 20px;
     }
+    .container-2{
+        display: none;
+    }
+    .img-2 img {
+        border: 0;
+        padding-top: 110px;
+        
+
+
+    }
+
+    .img-1 img {
+        margin-left: 50px;
+        padding-right: 0;
+    }
     
-
-
-
-
-
 
 }
